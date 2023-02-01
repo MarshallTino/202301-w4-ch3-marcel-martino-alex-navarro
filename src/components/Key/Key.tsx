@@ -1,7 +1,11 @@
-const Key = (): JSX.Element => {
+interface KeyProps {
+  keyValue: number | string;
+}
+
+const Key = ({ keyValue }: KeyProps): JSX.Element => {
   return (
     <li>
-      <button className="key">1</button>
+      <button className="key">{keyValue}</button>
     </li>
   );
 };
