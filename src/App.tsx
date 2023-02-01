@@ -1,6 +1,6 @@
 import Display from "./components/Display/Display";
 import Info from "./components/Info/Info";
-import Keyboard from "./Keyboard/Keyboard";
+import Keyboard from "./components/Keyboard/Keyboard";
 
 const App = (): JSX.Element => {
   return (
