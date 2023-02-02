@@ -11,6 +11,9 @@ const Keyboard = (): JSX.Element => {
         </li>
       ))}
       ;
+      <li>
+        <button className="key big">delete</button>
+      </li>
     </ol>
   );
 };

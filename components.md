@@ -20,17 +20,18 @@
 - Contains the function to clear the whole number
 - Contains the function to call
 - Contains the function to hang up
+- Contains the phone number data
+- Contains the isCalling data
 
 ## APP
 
 ## INFO
 
-- Shows the 'is calling' status
+- Receives the 'is calling' status (responsability)
 
 ## DISPLAY
 
-- Shows the result of the 'add a number' function
-- Shows the result of the 'clear the number' function
+- Receives a value and shows the value
 
 ## ACTIONS
 
@@ -40,6 +41,8 @@
 - One of the 'Action' components takes the function to hung up
 
 ## KEYBOARD
+
+- Receives isCalling
 
 ### KEY
 
