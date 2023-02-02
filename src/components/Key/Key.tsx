@@ -1,11 +1,14 @@
 interface KeyProps {
-  keyValue: number | string;
+  keyValue: string;
+  action: (value: string) => void;
 }
 
-const Key = ({ keyValue }: KeyProps): JSX.Element => {
+const Key = ({ keyValue, action }: KeyProps): JSX.Element => {
   return (
     <li>
-      <button className="key">{keyValue}</button>
+      <button className="key" onClick={() => action(keyValue)}>
+        {keyValue}
+      </button>
     </li>
   );
 };
