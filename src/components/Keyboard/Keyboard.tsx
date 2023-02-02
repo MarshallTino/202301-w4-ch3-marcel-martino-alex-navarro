@@ -10,7 +10,7 @@ const Keyboard = (): JSX.Element => {
           <Key keyValue={keyValue} />
         </li>
       ))}
-      ;
+
       <li>
         <button className="key big">delete</button>
       </li>
